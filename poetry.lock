@@ -418,7 +418,7 @@ python-versions = ">=3.7"
 
 [[package]]
 name = "uvicorn"
-version = "0.18.1"
+version = "0.18.2"
 description = "The lightning-fast ASGI server."
 category = "main"
 optional = false
@@ -445,7 +445,7 @@ dev = ["pytest (>=4.6.2)", "black (>=19.3b0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "45432e0cdcd946a640a231414151f5b6b2f85dc604ecd0d570f8fcdca21e0ada"
+content-hash = "99aa14d7fc5ccec3eb85a296f827a12c27d27525c74312ce78f0f4cc8908597b"
 
 [metadata.files]
 anyio = [
@@ -771,6 +771,7 @@ sniffio = [
 sqlalchemy = [
     {file = "SQLAlchemy-1.4.39-cp27-cp27m-macosx_10_14_x86_64.whl", hash = "sha256:4770eb3ba69ec5fa41c681a75e53e0e342ac24c1f9220d883458b5596888e43a"},
     {file = "SQLAlchemy-1.4.39-cp27-cp27m-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:752ef2e8dbaa3c5d419f322e3632f00ba6b1c3230f65bc97c2ff5c5c6c08f441"},
+    {file = "SQLAlchemy-1.4.39-cp27-cp27m-win32.whl", hash = "sha256:b30e70f1594ee3c8902978fd71900d7312453922827c4ce0012fa6a8278d6df4"},
     {file = "SQLAlchemy-1.4.39-cp27-cp27m-win_amd64.whl", hash = "sha256:864d4f89f054819cb95e93100b7d251e4d114d1c60bc7576db07b046432af280"},
     {file = "SQLAlchemy-1.4.39-cp27-cp27mu-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:8f901be74f00a13bf375241a778455ee864c2c21c79154aad196b7a994e1144f"},
     {file = "SQLAlchemy-1.4.39-cp310-cp310-macosx_10_15_universal2.whl", hash = "sha256:1745987ada1890b0e7978abdb22c133eca2e89ab98dc17939042240063e1ef21"},
@@ -822,8 +823,8 @@ typing-extensions = [
     {file = "typing_extensions-4.2.0.tar.gz", hash = "sha256:f1c24655a0da0d1b67f07e17a5e6b2a105894e6824b92096378bb3668ef02376"},
 ]
 uvicorn = [
-    {file = "uvicorn-0.18.1-py3-none-any.whl", hash = "sha256:013c4ea0787cc2dc456ef4368e18c01982e6be57903e4d3183218e543eb889b7"},
-    {file = "uvicorn-0.18.1.tar.gz", hash = "sha256:35703e6518105cfe53f16a5a9435db3e2e227d0784f1fd8fbc1214b1fdc108df"},
+    {file = "uvicorn-0.18.2-py3-none-any.whl", hash = "sha256:c19a057deb1c5bb060946e2e5c262fc01590c6529c0af2c3d9ce941e89bc30e0"},
+    {file = "uvicorn-0.18.2.tar.gz", hash = "sha256:cade07c403c397f9fe275492a48c1b869efd175d5d8a692df649e6e7e2ed8f4e"},
 ]
 win32-setctime = [
     {file = "win32_setctime-1.1.0-py3-none-any.whl", hash = "sha256:231db239e959c2fe7eb1d7dc129f11172354f98361c4fa2d6d2d7e278baa8aad"},
